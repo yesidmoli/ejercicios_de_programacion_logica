@@ -1,5 +1,7 @@
 """Leer un número entero y determinar si es un número terminado en 4."""
 
+
+
 try:
 	number = int(input("Ingresa un numero entero"))
 
