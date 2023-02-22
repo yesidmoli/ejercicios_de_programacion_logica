@@ -1,18 +1,18 @@
 """ Leer un número entero de tres dígitos y determinar si algún dígito es múltiplo de los
 otros."""
 
-try:
+try: #capturamos el numero entero
 	num1 = int(input("Ingrese un numero entero de tres dígitos: "))
 
-	if num1 < 100 or num1 > 999:
+	if num1 < 100 or num1 > 999: #verificamos si el numero es de 3 digitos
 		print("Los números deben tener tres dígitos")
 
-	else:
+	else: #obtenemos los digitos
 		d1 = num1 // 100
 		d2 = (num1 // 10) % 10 
 		d3 = num1 % 10
 
-		if d1 % d2 == 0:
+		if d1 % d2 == 0: #verificamos que digitos es multiplo del otro
 			print(f"El digito {d1}  es multiplo del digito {d2}")
 
 		elif d1 % d3 == 0:

@@ -9,13 +9,13 @@ try:
 	#comprobamos si el numero es de dos digitos y menor que 20
 
 	if number >= 10 and number < 20:
-		if number % 2 == 0: 
-			print(f"{number} No es un numero primo")
-		else:
+		if number % 2 != 0: #si la condicin se cumple modulamos por dos para saber si es primo o no.
 			print(f"{number} es un numero primo")
+		else:
+			print(f"{number} No es un numero primo")
 
 	else:
-		print("El numero no es valido")
+		print("El numero no es valido") #al no cumplirse las condiciones anteriores imprimira
 
 
 except ValueError:

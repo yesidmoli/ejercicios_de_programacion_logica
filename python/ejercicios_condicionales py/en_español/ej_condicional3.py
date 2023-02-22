@@ -4,7 +4,7 @@
 try:
 	number= int(input("Ingresa un numero entero")) #capturamos el numero entero
 
-	if number < 0: ##verificamos si el numero ingresado es positivo o negativo
+	if number < 0: #verificamos si el numero ingresado es positivo o negativo
 		print("Es un numero negativo")
 	else:								
 		print("Es un numero positivo")
