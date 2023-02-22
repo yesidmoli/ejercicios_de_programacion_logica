@@ -1,16 +1,14 @@
 """Leer un número entero y determinar si es negativo.
-try:
-	
-except ValueError:
-	print("ValueError")"""
+"""
 
 try:
-	number= int(input("Ingresa un numero entero"))
+	number= int(input("Ingresa un numero entero")) #capturamos el numero entero
 
-	if number < 0:
+	if number < 0: ##verificamos si el numero ingresado es positivo o negativo
 		print("Es un numero negativo")
-	else:
+	else:								
 		print("Es un numero positivo")
 
+
 except ValueError:
-	print("el dato ingresado debe ser numerico")
+	print("el dato ingresado debe ser numerico") #en caso de que el usuario ingreso un dato que no es numerico, mostramos un mensaje
