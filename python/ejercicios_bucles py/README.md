@@ -43,7 +43,7 @@ primo.
 sumando progresivamente los dos últimos elementos de la serie, así:
 0 1 1 2 3 5 8 13 21 34.......
 
-**#OTROS EJERCICIOS **
+**#OTROS EJERCICIOS**
 - ej 1. Multiplicar un numero por 2 mientras sea menor que 10 inicie el numero en 1
 - ej 2. Mostrar los numeros del 1 al 10 por medio de un ciclo
 - ej 3. Implemetar un programa que solicite al usuario un valor inicial, un valor final y un incremento que permita llegar al valor final
