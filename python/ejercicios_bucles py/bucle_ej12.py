@@ -25,7 +25,7 @@ try:
 		while num != 0:
 
 			if num // 10 == 1 or num % 10 == 1:
-				print("El numero tiene el uno") 
+				print("El numero tiene el 1 ") 
 				break
 
 			num //= 10

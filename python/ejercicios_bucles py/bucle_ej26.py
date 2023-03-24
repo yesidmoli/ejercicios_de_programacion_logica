@@ -14,6 +14,5 @@ try:
 	print("el mayor digito es", mayor)
 			
 
-
 except ValueError:
 	print("El dato ingresado debe ser numerico")

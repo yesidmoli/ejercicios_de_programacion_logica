@@ -7,9 +7,8 @@ try:
 	
 	for i in range(1,num+1): #recorremos el ciclo dando los parametros 
 
-		if i % 5 == 0:
-
-
+		if i % 5 == 0: #condicionamos para obtener los multiplos de 5
+			
 			print(i) #imprimimos resultado
 
 except ValueError:
