@@ -25,7 +25,7 @@ try:
 
         num = numeros[j]
 
-        if num % 2 != 0: #condicionamos para obtener el mayor numero primero
+        if num % 2 != 0: #condicionamos para obtener el mayor numero primo
             mayor = num
             pos = j
 

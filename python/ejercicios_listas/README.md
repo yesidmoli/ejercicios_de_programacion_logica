@@ -1,4 +1,4 @@
-***#Ejercicios listas***
+# **Ejercicios listas**
 1. Leer 10 enteros, almacenarlos en una lista y determinar en qué posición de la lista está
 el mayor número leído.
 2. Leer 10 enteros, almacenarlos en una lista y determinar en qué posición de la lista está
