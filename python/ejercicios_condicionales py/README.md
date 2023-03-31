@@ -1,4 +1,4 @@
-**#EJERCICIOS CONDICIONALES EN PYTHON**
+# **Ejercicios condicionales**
 
 - 1. Leer un número entero y determinar si es un número terminado en 4.
 - 2. Leer un número entero y determinar si tiene 3 dígitos.

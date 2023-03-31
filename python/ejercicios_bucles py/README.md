@@ -1,4 +1,4 @@
-**#EJERCICIOS CICLOS EN PYTHON**
+# **Ejercicios bucles**
 
 1. Leer un número entero y mostrar todos los enteros comprendidos entre 1 y el número
 leído.
